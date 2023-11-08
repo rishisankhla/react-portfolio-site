@@ -2,76 +2,90 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/Webflow Development Skills.png",
+      "title": "Webflow Development Skills",
+      "description": "Skilled in HTML, CSS, and JavaScript. Proficient in building web applications using Node.js and Express. Well-versed in React and Vue.js for frontend development. Capable of working with API's (REST & JSON). Experienced in both frontend and backend framework development. Equipped for full-stack development, especially with the MERN stack."
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/Other Programming Skills.png",
+      "title": "Other Programming Skills",
+      "description": "Adept in Java and C++ programming languages. Developed a stock prediction software in C++. Possess a strong understanding of MySQL and Git for database and version control."
+    },
+    {
+      "id": "3",
+      "src": "./img/Industry Skills.png",
+      "title": "Industry Skills",
+      "description": "Proficient in Microsoft Office Suite. Skilled in ChatGPT prompt engineering. Proficient in leveraging AI tools for efficiency and automation."
+    },
+    {
+      "id": "2",
+      "src": "./img/Analytical Skills.png",
+      "title": "Analytical Skills",
+      "description": "Competent in data analysis using Matlab, Python, pandas, numpy, and matplotlib. Experienced in machine learning with Scikit-Learn. Proficient in using Jupyter Notebook for data analysis and visualization. Capable of web scraping techniques."
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/Book store website backend-fronted.png",
+      "title": "Book store website backend-fronted",
+      "description": "Build full website using node, express and MySql | learnt how to provide and call APIs,  password hashing, authorisation, form sanitisation and validation ",
+      "link": "https://github.com/rishisankhla/web-app-Berties-Book-store-databases-final-lab"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/flappy_bird_game.png",
+      "title": "Flappy bird game",
+      "description": "Build full flappy bird point game using P5.js | learnt how to write game logic in object oriented methodology using constructor functions",
+      "link": "https://github.com/rishisankhla/flappy-bird-game"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/squash_website.png",
+      "title": "Frontend sports website from scratch",
+      "description": "Build news sharing website from scratch without using framework | HTML, CSS, Javascript | learnt how to make CSS  animations and hard coded javascript functions using “script” tag , also how to optimizable according to mobile, tablet and laptop screen size",
+      "link": "https://github.com/rishisankhla/squash-frontend-website-from-scratch"
+    },
+    {
+      "id": "4",
+      "src": "./img/ip2_music.png",
+      "title": "Music visualizer software",
+      "description": "Shows 6 different types graphics when music is played | learnt how to use P5.JS javascript library",
+      "link": "https://github.com/rishisankhla/ip2_music_player"
+    },
+    {
+      "id": "5",
+      "src": "./img/oop_final.png",
+      "title": "Music disk player in C++",
+      "description": "Build music player to load songs and to equalize songs | learnt how to use Juce library in C++",
+      "link": "https://github.com/rishisankhla/music_disk_player_c_plus_plus_oop"
+    },
+    {
+      "id": "6",
+      "src": "./img/ip1_game.png",
+      "title": "Mario game",
+      "description": "Build a working 2D game from scratch | learnt the basic game concepts in P5.JS",
+      "link": "https://github.com/rishisankhla/ip1_game_project"
     }
   ],
   "testimonial": [
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "src": "./img/Lomas.jpg",
+      "description": "Lecturer in Creative Computing and visiting research fellow, Goldsmiths, University of London",
+      "author_name": "Andy Lomas (My dissertation supervisor)",
+      "author_designation": "a.lomas@gold.ac.uk"
     },
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "src": "./img/lahcen.jpg",
+      "description": "Lecturer and Deputy Senior Tutor, Goldsmiths, University of London",
+      "author_name": "Dr Lahcen Ouarbya (My research supervisor)",
+      "author_designation": "l.ouarbya@gold.ac.uk"
     }
+    
   ]
 }

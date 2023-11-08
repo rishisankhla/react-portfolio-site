@@ -35,9 +35,9 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="./img/Rishi Logo Virsion 2.png" alt="rishi sankhla" width="280" height="85"/>
       </div>
-      <a
+      <a 
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
@@ -100,7 +100,7 @@ function Navbar() {
               to="testimonial"
               className="navbar--content"
             >
-              Testimonials
+              References
             </Link>
           </li>
         </ul>

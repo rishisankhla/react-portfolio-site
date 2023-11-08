@@ -5,14 +5,14 @@ export default function Testimonial() {
     <section className="testimonial--section" id="testimonial">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Clients Feedback</p>
-          <h2 className="sections--heading">Customer Feedback</h2>
+          <p className="sub--title"></p>
+          <h2 className="sections--heading">References</h2>
         </div>
       </div>
-      <div className="portfolio--section--container">
+      <div className="portfolio--section--container--testimonial">
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial--section--card">
-            <div className="testimonial--section--card--review">
+            {/* <div className="testimonial--section--card--review">
               {Array.from({ length: 5 }, (reviews, index) => (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -27,19 +27,20 @@ export default function Testimonial() {
                   />
                 </svg>
               ))}
-            </div>
-            <p className="text-md">{item.description}</p>
+            </div> */}
+            
             <div className="testimonial--section--card--author--detail">
-              <img src={item.src} alt="Avatar" />
+              <img id="references_img" src={item.src} alt="Avatar" width="80" height="80" />
               <div>
                 <p className="text-md testimonial--author--name">
                   {item.author_name}
                 </p>
                 <p className="text-md testimonial--author--designation">
-                  {item.author_designation}
+                  <a href={`mailto:${item.author_designation}`}>{item.author_designation}</a>
                 </p>
               </div>
             </div>
+            <p className="text-md">{item.description}</p>
           </div>
         ))}
       </div>

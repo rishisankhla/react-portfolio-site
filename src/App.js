@@ -9,7 +9,7 @@ const repoName = "react-portfolio-site"; // Replace with your GitHub repository 
 
 function App() {
   return (
-    <div className="App" basename={`/${repoName}`}>
+    <div className="App">
       <Router>
         <div>
           <Navbar />

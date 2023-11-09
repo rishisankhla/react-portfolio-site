@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://rishisankhla.com",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -16,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build"
   },
   "browserslist": {
